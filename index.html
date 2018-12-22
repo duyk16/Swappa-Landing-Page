@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="images/img/favicon.png">
+	<title>Home | Swappa</title>
+
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<script src="js/jquery-3.3.1.slim.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+	<!-- Roboto font -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<!-- Header -->
+	<header id="header" class="fixed-top">
+		<div class="container">
+			<div id="nav-top" class="pt-2 pb-0 pt-md-3 pb-md-2	">
+				<div class="row">
+					<div class="col-lg-2 col-md-3 col-sm-4 col-5">
+						<div id="logo" class="pt-0 pb-1 pt-md-1">
+							<img class="img-fluid" src="images/img/logo.svg" alt="Logo">
+						</div>
+					</div>
+					<div class="col-sm-8 col-7 d-block d-sm-block d-md-none" id="menu-collapse">
+						<button class="navbar-toggler" data-toggle="collapse" data-target="#collapsibleNavbar" id="nav-controll-button">
+							<span><i class="fas fa-bars"></i></span>
+						</button>
+					</div>
+					<div class="col-lg-7 col-md-5 col-sm-12 col-12 ">
+						<div id="search">
+							<form action="/search" class="form-inline w-100">
+								<input type="text" name="search" class="form-control" placeholder="Tìm kiếm điện thoại, máy tính bảng, laptops, ...">
+								<button type="submit" class="btn"><i class="fas fa-search"></i></button>
+							</form>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-4 col-sm-12 col-12 d-none d-md-block">
+						<div id="user-top" class="d-flex align-items-center">
+							<div class="login mx-2">
+								<a href="#">Login</a>
+							</div>
+							<div class="register mx-2">
+								<a href="#">Register</a>
+							</div>
+							<div class="cart mx-2">
+								<button class="btn"><i class="fas fa-shopping-cart"></i></button>
+								<span id="cart-count">2</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<hr class="m-0">
+			<div id="nav-bot">
+				<div class="row justify-content-center">
+
+					<nav class="navbar-expand-md navbar-light navbar-light">
+
+						<!-- Navbar links -->
+						<div class="collapse navbar-collapse" id="collapsibleNavbar">
+							<ul class="navbar-nav">
+								<li class="nav-item mx-4 mx-lg-5">
+									<a class="nav-link" href="#"><i class="fab fa-apple"></i> iPhone</a>
+								</li>
+								<li class="nav-item mx-4 mx-lg-5">
+									<a class="nav-link" href="#"><i class="fas fa-mobile-alt"></i> Android</a>
+								</li>
+								<li class="nav-item mx-4 mx-lg-5">
+									<a class="nav-link" href="#"><i class="fas fa-laptop"></i> Laptops</a>
+								</li>
+								<li class="nav-item mx-4 mx-lg-5">
+									<a class="nav-link" href="#"><i class="fas fa-tablet-alt"></i> Tablets</a>
+								</li> 
+								<li class="nav-item mx-4 mx-lg-5">
+									<a class="nav-link" href="#"><i class="fas fa-camera"></i> Cameras</a>
+								</li> 
+							</ul>
+						</div> 
+					</nav>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- /header -->
+	
+	<section id="top-catalogue">
+		<div class="container">
+			<header class="text-center pb-2">Danh mục sản phẩm</header>
+			<div class="row">
+				<div class="col-3">
+					<img class="img-fluid" src="images/products/category_android.png" alt="">
+					<h4>Android</h4>
+				</div>
+				<div class="col-3">
+					<img class="img-fluid" src="images/products/category_iphones.png" alt="">
+					<h4>iPhone</h4>
+				</div>
+				<div class="col-3">
+					<img class="img-fluid" src="images/products/category_tablets.png" alt="">
+					<h4>Máy tính bảng</h4>
+				</div>
+				<div class="col-3">
+					<img class="img-fluid" src="images/products/category_laptops.png" alt="">
+					<h4>Laptops</h4>
+				</div>
+				<button class="btn btn-success mr-auto ml-auto mt-3">Xem tất cả danh mục <i class="fas fa-arrow-right text-light"></i></button>
+			</div>
+			<hr class="d-none d-md-block">
+		</div>
+	</section>
+	<!-- Main product -->
+	<section id="product" class="mt-3">
+		<div class="container">
+			<div class="phone">
+				<div class="row">
+					<div class="col-lg-2 col-md-3 col-6">
+						<div class="product-item">
+							<a class="product-img" href="#">
+								<img class="" src="images/products/product_iphone1.png" alt="">
+							</a>
+							<div class="clearfix"></div>
+							<a class="title" href="#">Apple iPhone 6S</a>
+							<a class="price-tag" href="#">7.000.000</a>
+							<a class="logo-catalogue" href="#"><i class="fab fa-apple"></i></a>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-3 col-6">
+						<div class="product-item">
+							<a class="product-img" href="#">
+								<img class="" src="images/products/product_android.png" alt="">
+							</a>
+							<div class="clearfix"></div>
+							<a class="title" href="#">Samsung Galaxy S7</a>
+							<a class="price-tag" href="#">7.000.000</a>
+							<a class="logo-catalogue" href="#"><i class="fab fa-android"></i></a>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-3 col-6">
+						<div class="product-item">
+							<a class="product-img" href="#">
+								<img class="" src="images/products/product_iphone2.png" alt="">
+							</a>
+							<div class="clearfix"></div>
+							<a class="title" href="#">Apple iPhone 7 plus</a>
+							<a class="price-tag" href="#">12.000.000</a>
+							<a class="logo-catalogue" href="#"><i class="fab fa-apple"></i></a>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-3 col-6">
+						<div class="product-item">
+							<a class="product-img" href="#">
+								<img class="" src="images/products/product_iphone1.png" alt="">
+							</a>
+							<div class="clearfix"></div>
+							<a class="title" href="#">Apple iPhone 6S</a>
+							<a class="price-tag" href="#">7.000.000</a>
+							<a class="logo-catalogue" href="#"><i class="fab fa-apple"></i></a>
+						</div>
+					</div>
+					<div class="d-none d-lg-block col-lg-2 col-md-3 col-6">
+						<div class="product-item">
+							<a class="product-img" href="#">
+								<img class="" src="images/products/product_iphone2.png" alt="">
+							</a>
+							<div class="clearfix"></div>
+							<a class="title" href="#">Apple iPhone 6S</a>
+							<a class="price-tag" href="#">7.000.000</a>
+							<a class="logo-catalogue" href="#"><i class="fab fa-apple"></i></a>
+						</div>
+					</div>
+					<div class="d-none d-lg-block col-lg-2 col-md-3 col-6">
+						<div class="product-more">
+							<a href="#"><img src="images/products/med_phone.svg" alt=""></a>
+							<a href="#"><span>See more <i class="fas fa-caret-down"></i></span></a>
+						</div>
+					</div>
+					<div class="d-block d-lg-none col-12">
+						<button class="btn button-more">
+							See more product <i class="fas fa-caret-down"></i>
+						</button>
+					</div>
+				</div>
+			</div>
+			<div class="tablet mt-3 mb-2">
+				<div class="row">
+					<div class="col-lg-2 col-md-3 col-6">
+						<div class="product-item">
+							<a class="product-img" href="#">
+								<img class="" src="images/products/product_tablet0.png" alt="">
+							</a>
+							<div class="clearfix"></div>
+							<a class="title" href="#">Microsoft Surface Pro 4 - 12.3 Inch</a>
+							<a class="price-tag" href="#">10.000.000</a>
+							<a class="logo-catalogue" href="#"><i class="fab fa-windows"></i></a>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-3 col-6">
+						<div class="product-item">
+							<a class="product-img" href="#">
+								<img class="" src="images/products/product_tablet2.png" alt="">
+							</a>
+							<div class="clearfix"></div>
+							<a class="title" href="#">iPad Pro 12.9" Gen 2017</a>
+							<a class="price-tag" href="#">13.000.000</a>
+							<a class="logo-catalogue" href="#"><i class="fab fa-apple"></i></a>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-3 col-6">
+						<div class="product-item">
+							<a class="product-img" href="#">
+								<img class="" src="images/products/product_tablet3.png" alt="">
+							</a>
+							<div class="clearfix"></div>
+							<a class="title" href="#">iPad Pro 10.5"</a>
+							<a class="price-tag" href="#">12.000.000</a>
+							<a class="logo-catalogue" href="#"><i class="fab fa-apple"></i></a>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-3 col-6">
+						<div class="product-item">
+							<a class="product-img" href="#">
+								<img class="" src="images/products/product_tablet4.png" alt="">
+							</a>
+							<div class="clearfix"></div>
+							<a class="title" href="#">Apple iPad Pro 12.9" Gen 2015</a>
+							<a class="price-tag" href="#">7.000.000</a>
+							<a class="logo-catalogue" href="#"><i class="fab fa-apple"></i></a>
+						</div>
+					</div>
+					<div class="d-none d-lg-block col-lg-2 col-md-3 col-6">
+						<div class="product-item">
+							<a class="product-img" href="#">
+								<img class="" src="images/products/product_tablet5.png" alt="">
+							</a>
+							<div class="clearfix"></div>
+							<a class="title" href="#">Samsung Galaxy Tab 4</a>
+							<a class="price-tag" href="#">7.000.000</a>
+							<a class="logo-catalogue" href="#"><i class="fab fa-android"></i></a>
+						</div>
+					</div>
+					<div class="d-none d-lg-block col-lg-2 col-md-3 col-6">
+						<div class="product-more">
+							<a href="#"><img src="images/products/med_tablet.svg" alt=""></a>
+							<a href="#"><span>See more <i class="fas fa-caret-down"></i></span></a>
+						</div>
+					</div>
+					<div class="d-block d-lg-none col-12">
+						<button class="btn button-more">
+							See more product <i class="fas fa-caret-down"></i>
+						</button>
+					</div>
+				</div>
+			</div>
+			<div id="adv-product">
+				<div class="row">
+					<div class="col-lg-9 col-12">
+						<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+							<ol class="carousel-indicators">
+								<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+								<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+								<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+								<li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+							</ol>
+							<div class="carousel-inner">
+								<div class="carousel-item active">
+									<img class="d-block w-100" src="images/products/adv_product1.png">
+								</div>
+								<div class="carousel-item">
+									<img class="d-block w-100" src="images/products/adv_product2.png">
+								</div>
+								<div class="carousel-item">
+									<img class="d-block w-100" src="images/products/adv_product3.png">
+								</div>
+								<div class="carousel-item">
+									<img class="d-block w-100" src="images/products/adv_product5.png">
+								</div>
+							</div>
+							<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+								<span class="sr-only">Previous</span>
+							</a>
+							<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+								<span class="carousel-control-next-icon" aria-hidden="true"></span>
+								<span class="sr-only">Next</span>
+							</a>
+						</div>
+					</div>
+					<div class="col-lg-3 d-none d-lg-block">
+						<img class="img-fluid" src="images/products/adv_side1.png" alt="">
+						<img class="img-fluid" src="images/products/adv_side2.png" alt="">
+						<img class="img-fluid" src="images/products/adv_side1.png" alt="">
+						<img class="img-fluid mt-1" src="images/products/adv_side2.png" alt="">
+					</div>
+				</div>
+			</div>
+			<div class="tablet mt-2 mb-2">
+				<div class="row">
+					<div class="col-lg-2 col-md-3 col-6">
+						<div class="product-item">
+							<a class="product-img" href="#">
+								<img class="" src="images/products/product_laptop2.png" alt="">
+							</a>
+							<div class="clearfix"></div>
+							<a class="title" href="#">MacBook Pro 2018 (With Touch Bar) - 15"</a>
+							<a class="price-tag" href="#">10.000.000</a>
+							<a class="logo-catalogue" href="#"><i class="fab fa-windows"></i></a>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-3 col-6">
+						<div class="product-item">
+							<a class="product-img" href="#">
+								<img class="img-fluid" src="images/products/product_laptop4.jpg" alt="">
+							</a>
+							<div class="clearfix"></div>
+							<a class="title" href="#">Dell vostro 2015</a>
+							<a class="price-tag" href="#">8.000.000</a>
+							<a class="logo-catalogue" href="#"><i class="fab fa-apple"></i></a>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-3 col-6">
+						<div class="product-item">
+							<a class="product-img" href="#">
+								<img class="" src="images/products/product_laptop1.png" alt="">
+							</a>
+							<div class="clearfix"></div>
+							<a class="title" href="#">MacBook Pro 2017 (No Touch Bar) - 13"</a>
+							<a class="price-tag" href="#">13.000.000</a>
+							<a class="logo-catalogue" href="#"><i class="fab fa-apple"></i></a>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-3 col-6">
+						<div class="product-item">
+							<a class="product-img" href="#">
+								<img class="" src="images/products/product_laptop3.png" alt="">
+							</a>
+							<div class="clearfix"></div>
+							<a class="title" href="#">Macbook Retina 2017 - 12"</a>
+							<a class="price-tag" href="#">12.000.000</a>
+							<a class="logo-catalogue" href="#"><i class="fab fa-apple"></i></a>
+						</div>
+					</div>
+					<div class="d-none d-lg-block col-lg-2 col-md-3 col-6">
+						<div class="product-item">
+							<a class="product-img" href="#">
+								<img class="img-fluid" src="images/products/product_laptop6.jpg" alt="">
+							</a>
+							<div class="clearfix"></div>
+							<a class="title" href="#">Asus X53</a>
+							<a class="price-tag" href="#">7.000.000</a>
+							<a class="logo-catalogue" href="#"><i class="fab fa-android"></i></a>
+						</div>
+					</div>
+					<div class="d-none d-lg-block col-lg-2 col-md-3 col-6">
+						<div class="product-more">
+							<a href="#"><img src="images/products/med_laptop.svg" alt=""></a>
+							<a href="#"><span>See more <i class="fas fa-caret-down"></i></span></a>
+						</div>
+					</div>
+					<div class="d-block d-lg-none col-12">
+						<button class="btn button-more">
+							See more product <i class="fas fa-caret-down"></i>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<footer class="mt-5">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-6">
+					<a href="#">Tìm hiểu về mua trả góp</a>
+					<a href="#">Chính sách bảo hành</a>
+					<a href="#">Chính sách đổi trả</a>
+					<a href="#">Giao hàng & Thanh toán</a>
+				</div>
+				<div class="col-lg-3 col-6">
+					<a href="#">Giới thiệu công ty</a>
+					<a href="#">Tuyển dụng</a>
+					<a href="#">Gửi góp ý, khiếu nại</a>
+					<a href="#">Tìm siêu thị (230 shop)</a>
+				</div>
+				<div class="col-lg-3 col-6">
+					<a href="#">Gọi mua hàng    <b>1800-1800</b></a>
+					<a href="#">Gọi khiếu nại   <b>1800-1800</b></a>
+					<a href="#">Gọi bảo hành    <b>1800-1800</b></a>
+					<a href="#">Hỗ trợ kỹ thuật <b>1800-1800</b></a>
+				</div>
+				<div class="col-lg-3 col-6">
+					<p class="mb-0">Thanh toán với</p>
+					<img src="images/products/thanhtoan-img.png" alt="" class="w-75">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4 col-12">
+					<img src="images/img/swappa_footer.svg" alt="" class="logo-footer">
+				</div>
+					<div class="col-md-4 col-12">
+						<div class="social_links py-md-3">
+							<a href="#" class="social"><i class="fab fa-facebook-square"></i></a>
+							<a href="#" class="social"><i class="fab fa-instagram"></i></a>
+							<a href="#" class="social"><i class="fab fa-google-plus-square"></i></a>
+							<a href="#" class="social"><i class="fab fa-youtube-square"></i></a>
+							<a href="#" class="social"><i class="fab fa-pinterest-square"></i></a>
+						</div>
+					</div>
+				<div class="col-md-4 col-12 py-1 pt-md-4">
+					<p>Copyright © 2010 - 2018 Swappa, LLC</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
